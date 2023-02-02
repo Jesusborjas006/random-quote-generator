@@ -64,3 +64,23 @@ main {
   background-color: #ee4758;
   color: #fff;
 }
+
+/* Mobile Devices */
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+  }
+
+  .quote {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-left: -40px;
+  }
+}
