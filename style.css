@@ -24,32 +24,40 @@ main {
 
 .card {
   width: 60%;
-  height: 40%;
+  height: 60%;
   background: #fff;
   border-radius: 20px;
+  position: relative;
 }
 
 .quote {
-  margin-top: 30px;
-  font-size: 3rem;
+  margin-top: 20px;
+  font-size: 2rem;
+  padding: 20px;
 }
 
 .person {
-  font-size: 2rem;
-  position: relative;
-  top: 50px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  color: #d64c7f;
 }
 
 .btn {
+  display: block;
   font-size: 22px;
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
   background-color: #777777;
-  margin-top: 80px;
   color: #ffffff;
   cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 41.5%;
 }
 
 .btn:hover {
